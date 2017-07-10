@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  min-height: 100hv;
+  background: #EFC076;
+}
+
+#c-slider{
+  margin: auto;
+  width: 85%;
+  max-width: 900px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 0 10px #fff,
+              0 15px  50px;
+}
+
+#slider{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  width: 600%;
+}
+
+section{
+  width: 100%;
+}
+
+#btn-prev, #btn-next{
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+#btn-prev:hover, #btn-next:hover{
+  background: rgba(255, 255, 255, 1);
+}
+
+#btn-next{
+  right: 10px;
+}
+
+#btn-prev{
+  left: 10px;
+}
+
+#slider section{
+  width: 100%;
+}
+
+#slider img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#boton{
+  float: right;
+  padding: 20px;
+  margin-right: 90px;
+  margin-bottom: 30px;
+}
+
+#boton a{
+  margin: 0 auto;
+  background-color: #218bc0;
+  padding: 20px;
+  font-family: 'Fresca', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  position: center;
+}
